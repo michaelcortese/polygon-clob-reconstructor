@@ -36,38 +36,39 @@ endif()
 # ── Threads ───────────────────────────────────────────────────────────────────
 find_package(Threads REQUIRED)
 
-# ── Source files ──────────────────────────────────────────────────────────────
-file(GLOB_RECURSE SOURCES src/*.cpp)
+# ── Library (shared sources, excludes main.cpp) ───────────────────────────────
+file(GLOB LIB_SOURCES src/logger/*.cpp src/book/*.cpp src/parser/*.cpp)
 
-add_executable(polygon_clob_reconstructor ${SOURCES})
-
-target_include_directories(polygon_clob_reconstructor PRIVATE include)
-
-target_link_libraries(polygon_clob_reconstructor PRIVATE
+add_library(polygon_clob_lib STATIC ${LIB_SOURCES})
+target_include_directories(polygon_clob_lib PUBLIC include)
+target_link_libraries(polygon_clob_lib PUBLIC
   nlohmann_json::nlohmann_json
   Threads::Threads
 )
 
 if(CURL_FOUND)
-  target_compile_definitions(polygon_clob_reconstructor PRIVATE POLYGON_CLOB_HAS_CURL)
-  target_link_libraries(polygon_clob_reconstructor PRIVATE CURL::libcurl)
+  target_compile_definitions(polygon_clob_lib PUBLIC POLYGON_CLOB_HAS_CURL)
+  target_link_libraries(polygon_clob_lib PUBLIC CURL::libcurl)
 else()
-  # Fallback: use system libcurl runtime library if dev headers not found
   set(CURL_SO_LIB "/usr/lib/x86_64-linux-gnu/libcurl.so.4")
   if(EXISTS "${CURL_SO_LIB}")
-    target_compile_definitions(polygon_clob_reconstructor PRIVATE POLYGON_CLOB_HAS_CURL)
-    target_link_libraries(polygon_clob_reconstructor PRIVATE ${CURL_SO_LIB})
+    target_compile_definitions(polygon_clob_lib PUBLIC POLYGON_CLOB_HAS_CURL)
+    target_link_libraries(polygon_clob_lib PUBLIC ${CURL_SO_LIB})
     message(STATUS "Using system libcurl: ${CURL_SO_LIB}")
   endif()
 endif()
+
+# ── Main executable ───────────────────────────────────────────────────────────
+add_executable(polygon_clob_reconstructor src/main.cpp)
+target_link_libraries(polygon_clob_reconstructor PRIVATE polygon_clob_lib)
 
 # ── Tests ─────────────────────────────────────────────────────────────────────
 file(GLOB_RECURSE TEST_SOURCES tests/*.cpp)
 
 if(TEST_SOURCES)
   add_executable(polygon_clob_reconstructor_tests ${TEST_SOURCES})
-  target_include_directories(polygon_clob_reconstructor_tests PRIVATE include)
   target_link_libraries(polygon_clob_reconstructor_tests PRIVATE
+    polygon_clob_lib
     Catch2::Catch2WithMain
   )
   include(CTest)
@@ -76,5 +77,5 @@ endif()
 
 # ── Compiler warnings ─────────────────────────────────────────────────────────
 if(CMAKE_CXX_COMPILER_ID MATCHES "GNU|Clang")
-  target_compile_options(polygon_clob_reconstructor PRIVATE -Wall -Wextra -Wpedantic)
+  target_compile_options(polygon_clob_lib PUBLIC -Wall -Wextra -Wpedantic)
 endif()
