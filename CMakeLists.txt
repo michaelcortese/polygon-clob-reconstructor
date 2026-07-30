@@ -37,7 +37,7 @@ endif()
 find_package(Threads REQUIRED)
 
 # ── Library (shared sources, excludes main.cpp) ───────────────────────────────
-file(GLOB LIB_SOURCES src/logger/*.cpp src/book/*.cpp src/parser/*.cpp)
+file(GLOB LIB_SOURCES src/logger/*.cpp src/book/*.cpp src/parser/*.cpp src/core/*.cpp)
 
 add_library(polygon_clob_lib STATIC ${LIB_SOURCES})
 target_include_directories(polygon_clob_lib PUBLIC include)
