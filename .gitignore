@@ -35,5 +35,8 @@ Testing/
 *.tar.gz
 *.zip
 
+# System headers (dev fallback)
+include/curl/
+
 # Hermes
 .hermes/
