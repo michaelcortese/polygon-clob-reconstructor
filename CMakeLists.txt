@@ -51,6 +51,14 @@ target_link_libraries(polygon_clob_reconstructor PRIVATE
 if(CURL_FOUND)
   target_compile_definitions(polygon_clob_reconstructor PRIVATE POLYGON_CLOB_HAS_CURL)
   target_link_libraries(polygon_clob_reconstructor PRIVATE CURL::libcurl)
+else()
+  # Fallback: use system libcurl runtime library if dev headers not found
+  set(CURL_SO_LIB "/usr/lib/x86_64-linux-gnu/libcurl.so.4")
+  if(EXISTS "${CURL_SO_LIB}")
+    target_compile_definitions(polygon_clob_reconstructor PRIVATE POLYGON_CLOB_HAS_CURL)
+    target_link_libraries(polygon_clob_reconstructor PRIVATE ${CURL_SO_LIB})
+    message(STATUS "Using system libcurl: ${CURL_SO_LIB}")
+  endif()
 endif()
 
 # ── Tests ─────────────────────────────────────────────────────────────────────
