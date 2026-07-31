@@ -1,0 +1,297 @@
+[2026-07-31 14:58:23.312] CLOB Reconstructor starting...
+[2026-07-31 14:58:23.312] RPC URL: https://polygon-rpc.com
+[2026-07-31 14:58:23.313] PolygonParser: initialized, start=0x3567e00 end=0x3567e0a
+[2026-07-31 14:58:23.313] Starting from block 56000000
+[2026-07-31 14:58:48.012] CLOB Reconstructor starting...
+[2026-07-31 14:58:48.012] RPC URL: https://1rpc.io/matic
+[2026-07-31 14:58:48.013] PolygonParser: initialized, start=0x56c8cc0 end=0x56c8cca
+[2026-07-31 14:58:48.013] Starting from block 91000000
+[2026-07-31 14:58:53.315] CLOB Reconstructor starting...
+[2026-07-31 14:58:53.315] RPC URL: https://polygon-bor-rpc.publicnode.com
+[2026-07-31 14:58:53.316] PolygonParser: initialized, start=0x56c8cc0 end=0x56c8cca
+[2026-07-31 14:58:53.316] Starting from block 91000000
+[2026-07-31 14:59:01.896] CLOB Reconstructor starting...
+[2026-07-31 14:59:01.896] RPC URL: https://polygon-bor-rpc.publicnode.com
+[2026-07-31 14:59:01.896] PolygonParser: initialized, start=0x5708460 end=0x570846a
+[2026-07-31 14:59:01.897] Starting from block 91260000
+[2026-07-31 14:59:32.306] CLOB Reconstructor starting...
+[2026-07-31 14:59:32.306] RPC URL: https://polygon.drpc.org
+[2026-07-31 14:59:32.307] PolygonParser: initialized, start=0x5708460 end=0x5708492
+[2026-07-31 14:59:32.307] Starting from block 91260000
+[2026-07-31 14:59:38.072] ===== OrderBookManager Summary =====
+[2026-07-31 14:59:38.072] Total events processed: 0
+[2026-07-31 14:59:38.072] Active order books: 0
+[2026-07-31 14:59:38.072] ====================================
+[2026-07-31 14:59:38.072] CLOB Reconstructor finished.
+[2026-07-31 15:00:27.338] CLOB Reconstructor starting...
+[2026-07-31 15:00:27.338] RPC URL: https://polygon.drpc.org
+[2026-07-31 15:00:27.339] PolygonParser: initialized, start=0x2faf080 end=0x2faf468
+[2026-07-31 15:00:27.339] Starting from block 50000000
+[2026-07-31 15:00:30.753] Block 50000020: processed 2 events across 2 books
+[2026-07-31 15:00:33.012] Block 50000043: processed 2 events across 4 books
+[2026-07-31 15:00:52.511] Block 50000206: processed 2 events across 6 books
+[2026-07-31 15:00:58.762] Block 50000265: processed 2 events across 8 books
+[2026-07-31 15:00:59.846] Block 50000272: processed 2 events across 9 books
+[2026-07-31 15:01:14.351] Block 50000391: processed 2 events across 11 books
+[2026-07-31 15:01:27.733] Block 50000513: processed 2 events across 13 books
+[2026-07-31 15:01:40.825] Block 50000625: processed 2 events across 15 books
+[2026-07-31 15:01:45.442] Block 50000674: processed 2 events across 17 books
+[2026-07-31 15:02:13.815] Block 50000913: processed 4 events across 21 books
+[2026-07-31 15:02:14.739] Block 50000922: processed 6 events across 27 books
+[2026-07-31 15:02:20.403] Block 50000978: processed 2 events across 28 books
+[2026-07-31 15:02:20.635] Block 50000981: processed 2 events across 29 books
+[2026-07-31 15:02:22.657] ===== OrderBookManager Summary =====
+[2026-07-31 15:02:22.657] Total events processed: 32
+[2026-07-31 15:02:22.657] Active order books: 29
+[2026-07-31 15:02:22.657]   market_25 | trades: 1 | volume: 102620000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 2500
+[2026-07-31 15:02:22.657]   market_26 | trades: 1 | volume: 111860000 | mid: 0 | spread: 0 | best_bid: 105 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_42 | trades: 1 | volume: 22720000 | mid: 0 | spread: 0 | best_bid: 105 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_98 | trades: 1 | volume: 833330000 | mid: 0 | spread: 0 | best_bid: 6183 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_92 | trades: 1 | volume: 304080000 | mid: 0 | spread: 0 | best_bid: 101 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_68 | trades: 1 | volume: 514250000 | mid: 0 | spread: 0 | best_bid: 102 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_28 | trades: 3 | volume: 308204978 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 121
+[2026-07-31 15:02:22.657]   market_31 | trades: 1 | volume: 64000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 1666
+[2026-07-31 15:02:22.657]   market_12 | trades: 1 | volume: 250000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 227
+[2026-07-31 15:02:22.657]   market_30 | trades: 1 | volume: 1000000000 | mid: 0 | spread: 0 | best_bid: 16666 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_32 | trades: 1 | volume: 200000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 108
+[2026-07-31 15:02:22.657]   market_96 | trades: 1 | volume: 55765956 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 188
+[2026-07-31 15:02:22.657]   market_73 | trades: 1 | volume: 25000000 | mid: 0 | spread: 0 | best_bid: 106 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_89 | trades: 1 | volume: 15000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 1265
+[2026-07-31 15:02:22.657]   market_45 | trades: 1 | volume: 15000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 10000
+[2026-07-31 15:02:22.657]   market_64 | trades: 1 | volume: 205000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 140
+[2026-07-31 15:02:22.657]   market_63 | trades: 1 | volume: 268000000 | mid: 0 | spread: 0 | best_bid: 2103 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_72 | trades: 1 | volume: 1000000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 16666
+[2026-07-31 15:02:22.657]   market_36 | trades: 1 | volume: 680000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 909
+[2026-07-31 15:02:22.657]   market_81 | trades: 1 | volume: 200000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 108
+[2026-07-31 15:02:22.657]   market_67 | trades: 2 | volume: 400000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 1250
+[2026-07-31 15:02:22.657]   market_78 | trades: 1 | volume: 5800000 | mid: 0 | spread: 0 | best_bid: 107 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_90 | trades: 1 | volume: 11111110 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 1000
+[2026-07-31 15:02:22.657]   market_59 | trades: 1 | volume: 680000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 112
+[2026-07-31 15:02:22.657]   market_44 | trades: 1 | volume: 2439022 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 555
+[2026-07-31 15:02:22.657]   market_61 | trades: 1 | volume: 11111110 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 111
+[2026-07-31 15:02:22.657]   market_69 | trades: 1 | volume: 64000000 | mid: 0 | spread: 0 | best_bid: 1666 | best_ask: 0
+[2026-07-31 15:02:22.657]   market_24 | trades: 1 | volume: 205000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 344
+[2026-07-31 15:02:22.657]   market_27 | trades: 1 | volume: 15000000 | mid: 0 | spread: 0 | best_bid: 0 | best_ask: 108
+[2026-07-31 15:02:22.657] ====================================
+[2026-07-31 15:02:22.657] CLOB Reconstructor finished.
+[2026-07-31 17:05:44.444] CLOB Reconstructor starting...
+[2026-07-31 17:05:44.444] RPC URL: https://polygon.drpc.org
+[2026-07-31 17:05:44.445] PolygonParser: V2 exchange=0xE111180000d2663C0091e4f400237545B87B996B batch_size=100 start=0x2faf080 end=0x2faf468
+[2026-07-31 17:05:44.445] Starting from block 50000000
+[2026-07-31 17:07:30.711] ===== OrderBookManager Summary =====
+[2026-07-31 17:07:30.712] Total events processed: 0
+[2026-07-31 17:07:30.712] Active order books: 0
+[2026-07-31 17:07:30.712] ====================================
+[2026-07-31 17:07:30.712] CLOB Reconstructor finished.
+[2026-07-31 17:10:12.379] CLOB Reconstructor starting...
+[2026-07-31 17:10:12.379] RPC URL: https://polygon.drpc.org
+[2026-07-31 17:10:12.380] PolygonParser: V2 exchange=0xE111180000d2663C0091e4f400237545B87B996B batch_size=100 start=0x55d4a80 end=0x55d4ae4
+[2026-07-31 17:10:12.380] Starting from block 90000000
+[2026-07-31 17:10:15.492] PolygonParser: batch 0x55d4a80-0x55d4ae3 → 100 blocks with events
+[2026-07-31 17:10:15.557] Block 90000000: processed 61 events across 38 books
+[2026-07-31 17:10:15.558] Block 90000001: processed 35 events across 54 books
+[2026-07-31 17:10:15.558] Block 90000002: processed 32 events across 64 books
+[2026-07-31 17:10:15.558] Block 90000003: processed 62 events across 78 books
+[2026-07-31 17:10:15.558] Block 90000004: processed 143 events across 89 books
+[2026-07-31 17:10:15.558] Block 90000005: processed 48 events across 92 books
+[2026-07-31 17:10:15.558] Block 90000006: processed 89 events across 98 books
+[2026-07-31 17:10:15.558] Block 90000007: processed 111 events across 99 books
+[2026-07-31 17:10:15.558] Block 90000008: processed 81 events across 100 books
+[2026-07-31 17:10:15.558] Block 90000009: processed 92 events across 100 books
+[2026-07-31 17:10:15.558] Block 90000010: processed 54 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000011: processed 113 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000012: processed 72 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000013: processed 72 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000014: processed 61 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000015: processed 25 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000016: processed 60 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000017: processed 49 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000018: processed 53 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000019: processed 69 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000020: processed 159 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000021: processed 100 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000022: processed 43 events across 100 books
+[2026-07-31 17:10:15.559] Block 90000023: processed 53 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000024: processed 67 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000025: processed 64 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000026: processed 91 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000027: processed 73 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000028: processed 48 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000029: processed 71 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000030: processed 44 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000031: processed 37 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000032: processed 55 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000033: processed 78 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000034: processed 40 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000035: processed 80 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000036: processed 65 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000037: processed 28 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000038: processed 27 events across 100 books
+[2026-07-31 17:10:15.560] Block 90000039: processed 43 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000040: processed 85 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000041: processed 42 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000042: processed 59 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000043: processed 69 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000044: processed 97 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000045: processed 50 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000046: processed 110 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000047: processed 40 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000048: processed 75 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000049: processed 59 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000050: processed 51 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000051: processed 111 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000052: processed 49 events across 100 books
+[2026-07-31 17:10:15.561] Block 90000053: processed 41 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000054: processed 56 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000055: processed 79 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000056: processed 112 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000057: processed 103 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000058: processed 65 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000059: processed 75 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000060: processed 137 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000061: processed 60 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000062: processed 73 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000063: processed 103 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000064: processed 62 events across 100 books
+[2026-07-31 17:10:15.562] Block 90000065: processed 40 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000066: processed 47 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000067: processed 82 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000068: processed 49 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000069: processed 67 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000070: processed 44 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000071: processed 33 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000072: processed 52 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000073: processed 62 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000074: processed 54 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000075: processed 61 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000076: processed 69 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000077: processed 119 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000078: processed 79 events across 100 books
+[2026-07-31 17:10:15.563] Block 90000079: processed 101 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000080: processed 41 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000081: processed 52 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000082: processed 73 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000083: processed 140 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000084: processed 92 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000085: processed 147 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000086: processed 69 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000087: processed 87 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000088: processed 87 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000089: processed 61 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000090: processed 53 events across 100 books
+[2026-07-31 17:10:15.564] Block 90000091: processed 55 events across 100 books
+[2026-07-31 17:10:15.565] Block 90000092: processed 84 events across 100 books
+[2026-07-31 17:10:15.565] Block 90000093: processed 121 events across 100 books
+[2026-07-31 17:10:15.565] Block 90000094: processed 174 events across 100 books
+[2026-07-31 17:10:15.565] Block 90000095: processed 114 events across 100 books
+[2026-07-31 17:10:15.565] Block 90000096: processed 143 events across 100 books
+[2026-07-31 17:10:15.565] Block 90000097: processed 91 events across 100 books
+[2026-07-31 17:10:15.565] Block 90000098: processed 53 events across 100 books
+[2026-07-31 17:10:15.565] Block 90000099: processed 103 events across 100 books
+[2026-07-31 17:10:15.659] PolygonParser: batch 0x55d4ae4-0x55d4ae4 → 1 blocks with events
+[2026-07-31 17:10:15.660] Block 90000100: processed 171 events across 100 books
+[2026-07-31 17:10:15.660] ===== OrderBookManager Summary =====
+[2026-07-31 17:10:15.660] Total events processed: 7481
+[2026-07-31 17:10:15.660] Active order books: 100
+[2026-07-31 17:10:15.660]   market_46 | trades: 81 | volume: 5279169616 | mid: 2553 | spread: 4294962403 | best_bid: 5000 | best_ask: 107
+[2026-07-31 17:10:15.660]   market_17 | trades: 96 | volume: 1650243739 | mid: 5050 | spread: 4294957397 | best_bid: 10000 | best_ask: 101
+[2026-07-31 17:10:15.660]   market_62 | trades: 101 | volume: 3628101408 | mid: 50051 | spread: 4294867399 | best_bid: 100000 | best_ask: 103
+[2026-07-31 17:10:15.660]   market_31 | trades: 66 | volume: 1379644645 | mid: 2550 | spread: 4294962397 | best_bid: 5000 | best_ask: 101
+[2026-07-31 17:10:15.660]   market_79 | trades: 118 | volume: 6588521875 | mid: 1051 | spread: 4294965399 | best_bid: 2000 | best_ask: 103
+[2026-07-31 17:10:15.660]   market_16 | trades: 70 | volume: 3539338157 | mid: 1722 | spread: 4294964074 | best_bid: 3333 | best_ask: 111
+[2026-07-31 17:10:15.660]   market_5 | trades: 59 | volume: 1166856147 | mid: 2561 | spread: 4294962419 | best_bid: 5000 | best_ask: 123
+[2026-07-31 17:10:15.660]   market_53 | trades: 90 | volume: 2609363358 | mid: 50054 | spread: 4294867405 | best_bid: 100000 | best_ask: 109
+[2026-07-31 17:10:15.660]   market_74 | trades: 53 | volume: 2913928423 | mid: 2109 | spread: 4294963515 | best_bid: 4000 | best_ask: 219
+[2026-07-31 17:10:15.660]   market_47 | trades: 61 | volume: 2987040573 | mid: 1720 | spread: 4294964071 | best_bid: 3333 | best_ask: 108
+[2026-07-31 17:10:15.660]   market_56 | trades: 70 | volume: 1401008115 | mid: 2552 | spread: 4294962401 | best_bid: 5000 | best_ask: 105
+[2026-07-31 17:10:15.660]   market_13 | trades: 100 | volume: 1754027906 | mid: 50056 | spread: 4294867409 | best_bid: 100000 | best_ask: 113
+[2026-07-31 17:10:15.660]   market_1 | trades: 56 | volume: 1983759589 | mid: 1729 | spread: 4294964088 | best_bid: 3333 | best_ask: 125
+[2026-07-31 17:10:15.660]   market_80 | trades: 68 | volume: 2953733813 | mid: 3897 | spread: 4294959706 | best_bid: 7692 | best_ask: 102
+[2026-07-31 17:10:15.660]   market_97 | trades: 64 | volume: 1493948436 | mid: 10065 | spread: 4294947427 | best_bid: 20000 | best_ask: 131
+[2026-07-31 17:10:15.660]   market_8 | trades: 78 | volume: 6918791054 | mid: 1050 | spread: 4294965396 | best_bid: 2000 | best_ask: 100
+[2026-07-31 17:10:15.660]   market_7 | trades: 72 | volume: 4945544831 | mid: 883 | spread: 4294965730 | best_bid: 1666 | best_ask: 100
+[2026-07-31 17:10:15.660]   market_86 | trades: 75 | volume: 1400825057 | mid: 5054 | spread: 4294957404 | best_bid: 10000 | best_ask: 108
+[2026-07-31 17:10:15.660]   market_4 | trades: 65 | volume: 4516868073 | mid: 1717 | spread: 4294964065 | best_bid: 3333 | best_ask: 102
+[2026-07-31 17:10:15.660]   market_14 | trades: 63 | volume: 1479816125 | mid: 764 | spread: 4294965969 | best_bid: 1428 | best_ask: 101
+[2026-07-31 17:10:15.660]   market_81 | trades: 61 | volume: 1160595296 | mid: 1054 | spread: 4294965404 | best_bid: 2000 | best_ask: 108
+[2026-07-31 17:10:15.660]   market_67 | trades: 89 | volume: 7469804237 | mid: 1716 | spread: 4294964063 | best_bid: 3333 | best_ask: 100
+[2026-07-31 17:10:15.660]   market_21 | trades: 78 | volume: 1163611366 | mid: 7282 | spread: 4294952972 | best_bid: 14444 | best_ask: 120
+[2026-07-31 17:10:15.660]   market_95 | trades: 70 | volume: 2181615732 | mid: 1720 | spread: 4294964070 | best_bid: 3333 | best_ask: 107
+[2026-07-31 17:10:15.660]   market_15 | trades: 68 | volume: 9645546737 | mid: 1718 | spread: 4294964067 | best_bid: 3333 | best_ask: 104
+[2026-07-31 17:10:15.660]   market_77 | trades: 68 | volume: 3094759913 | mid: 2552 | spread: 4294962401 | best_bid: 5000 | best_ask: 105
+[2026-07-31 17:10:15.660]   market_59 | trades: 60 | volume: 2192086958 | mid: 2553 | spread: 4294962402 | best_bid: 5000 | best_ask: 106
+[2026-07-31 17:10:15.660]   market_19 | trades: 86 | volume: 5660183441 | mid: 1724 | spread: 4294964079 | best_bid: 3333 | best_ask: 116
+[2026-07-31 17:10:15.660]   market_2 | trades: 69 | volume: 1334438512 | mid: 885 | spread: 4294965735 | best_bid: 1666 | best_ask: 105
+[2026-07-31 17:10:15.660]   market_6 | trades: 54 | volume: 6473184069 | mid: 1311 | spread: 4294964919 | best_bid: 2500 | best_ask: 123
+[2026-07-31 17:10:15.660]   market_94 | trades: 127 | volume: 8415069921 | mid: 606 | spread: 4294966286 | best_bid: 1111 | best_ask: 101
+[2026-07-31 17:10:15.660]   market_45 | trades: 57 | volume: 1807352702 | mid: 50050 | spread: 4294867396 | best_bid: 100000 | best_ask: 100
+[2026-07-31 17:10:15.660]   market_27 | trades: 80 | volume: 2873388683 | mid: 5615 | spread: 4294956305 | best_bid: 11111 | best_ask: 120
+[2026-07-31 17:10:15.660]   market_64 | trades: 62 | volume: 1897645116 | mid: 1718 | spread: 4294964066 | best_bid: 3333 | best_ask: 103
+[2026-07-31 17:10:15.660]   market_35 | trades: 82 | volume: 2121116232 | mid: 5064 | spread: 4294957424 | best_bid: 10000 | best_ask: 128
+[2026-07-31 17:10:15.660]   market_26 | trades: 74 | volume: 3930273027 | mid: 2550 | spread: 4294962396 | best_bid: 5000 | best_ask: 100
+[2026-07-31 17:10:15.660]   market_75 | trades: 68 | volume: 1660621432 | mid: 25081 | spread: 4294917459 | best_bid: 50000 | best_ask: 163
+[2026-07-31 17:10:15.660]   market_12 | trades: 77 | volume: 1476229701 | mid: 1716 | spread: 4294964063 | best_bid: 3333 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_68 | trades: 71 | volume: 1890505347 | mid: 10058 | spread: 4294947413 | best_bid: 20000 | best_ask: 117
+[2026-07-31 17:10:15.661]   market_29 | trades: 89 | volume: 870581914 | mid: 1300 | spread: 4294964896 | best_bid: 2500 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_55 | trades: 68 | volume: 4841350327 | mid: 1059 | spread: 4294965415 | best_bid: 2000 | best_ask: 119
+[2026-07-31 17:10:15.661]   market_65 | trades: 87 | volume: 5179752491 | mid: 5605 | spread: 4294956285 | best_bid: 11111 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_58 | trades: 95 | volume: 7050419347 | mid: 50052 | spread: 4294867401 | best_bid: 100000 | best_ask: 105
+[2026-07-31 17:10:15.661]   market_87 | trades: 59 | volume: 1689920383 | mid: 1302 | spread: 4294964901 | best_bid: 2500 | best_ask: 105
+[2026-07-31 17:10:15.661]   market_76 | trades: 85 | volume: 2579527623 | mid: 5607 | spread: 4294956289 | best_bid: 11111 | best_ask: 104
+[2026-07-31 17:10:15.661]   market_10 | trades: 89 | volume: 2399679817 | mid: 50050 | spread: 4294867396 | best_bid: 100000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_93 | trades: 66 | volume: 6109080410 | mid: 5050 | spread: 4294957396 | best_bid: 10000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_41 | trades: 64 | volume: 2981030332 | mid: 1051 | spread: 4294965399 | best_bid: 2000 | best_ask: 103
+[2026-07-31 17:10:15.661]   market_43 | trades: 72 | volume: 1195340208 | mid: 16719 | spread: 4294934069 | best_bid: 33333 | best_ask: 106
+[2026-07-31 17:10:15.661]   market_99 | trades: 70 | volume: 960655196 | mid: 5106 | spread: 4294957508 | best_bid: 10000 | best_ask: 212
+[2026-07-31 17:10:15.661]   market_60 | trades: 66 | volume: 2559048050 | mid: 5053 | spread: 4294957403 | best_bid: 10000 | best_ask: 107
+[2026-07-31 17:10:15.661]   market_85 | trades: 60 | volume: 2280962566 | mid: 2561 | spread: 4294962419 | best_bid: 5000 | best_ask: 123
+[2026-07-31 17:10:15.661]   market_23 | trades: 75 | volume: 2463713676 | mid: 1717 | spread: 4294964065 | best_bid: 3333 | best_ask: 102
+[2026-07-31 17:10:15.661]   market_70 | trades: 97 | volume: 5483303762 | mid: 2554 | spread: 4294962404 | best_bid: 5000 | best_ask: 108
+[2026-07-31 17:10:15.661]   market_36 | trades: 72 | volume: 1212311505 | mid: 1050 | spread: 4294965396 | best_bid: 2000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_63 | trades: 76 | volume: 2351082475 | mid: 50052 | spread: 4294867400 | best_bid: 100000 | best_ask: 104
+[2026-07-31 17:10:15.661]   market_0 | trades: 67 | volume: 1647674221 | mid: 2562 | spread: 4294962421 | best_bid: 5000 | best_ask: 125
+[2026-07-31 17:10:15.661]   market_40 | trades: 90 | volume: 9346379229 | mid: 764 | spread: 4294965968 | best_bid: 1428 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_83 | trades: 84 | volume: 5072299695 | mid: 2550 | spread: 4294962396 | best_bid: 5000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_73 | trades: 96 | volume: 5618274847 | mid: 8383 | spread: 4294950731 | best_bid: 16666 | best_ask: 101
+[2026-07-31 17:10:15.661]   market_22 | trades: 84 | volume: 1777488902 | mid: 2550 | spread: 4294962397 | best_bid: 5000 | best_ask: 101
+[2026-07-31 17:10:15.661]   market_38 | trades: 66 | volume: 1937336968 | mid: 1301 | spread: 4294964899 | best_bid: 2500 | best_ask: 103
+[2026-07-31 17:10:15.661]   market_52 | trades: 82 | volume: 8637411303 | mid: 1053 | spread: 4294965403 | best_bid: 2000 | best_ask: 107
+[2026-07-31 17:10:15.661]   market_88 | trades: 85 | volume: 7127469306 | mid: 7198 | spread: 4294953123 | best_bid: 14285 | best_ask: 112
+[2026-07-31 17:10:15.661]   market_32 | trades: 60 | volume: 1653090274 | mid: 883 | spread: 4294965730 | best_bid: 1666 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_78 | trades: 49 | volume: 1391444859 | mid: 2553 | spread: 4294962402 | best_bid: 5000 | best_ask: 106
+[2026-07-31 17:10:15.661]   market_11 | trades: 72 | volume: 619180641 | mid: 5081 | spread: 4294957459 | best_bid: 10000 | best_ask: 163
+[2026-07-31 17:10:15.661]   market_48 | trades: 54 | volume: 2256106000 | mid: 1716 | spread: 4294964063 | best_bid: 3333 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_20 | trades: 56 | volume: 1060328842 | mid: 5050 | spread: 4294957397 | best_bid: 10000 | best_ask: 101
+[2026-07-31 17:10:15.661]   market_24 | trades: 88 | volume: 1316174062 | mid: 50053 | spread: 4294867403 | best_bid: 100000 | best_ask: 107
+[2026-07-31 17:10:15.661]   market_50 | trades: 79 | volume: 5763113701 | mid: 2553 | spread: 4294962403 | best_bid: 5000 | best_ask: 107
+[2026-07-31 17:10:15.661]   market_96 | trades: 83 | volume: 5098300925 | mid: 1053 | spread: 4294965403 | best_bid: 2000 | best_ask: 107
+[2026-07-31 17:10:15.661]   market_54 | trades: 56 | volume: 3000328690 | mid: 2551 | spread: 4294962398 | best_bid: 5000 | best_ask: 102
+[2026-07-31 17:10:15.661]   market_33 | trades: 85 | volume: 2420540637 | mid: 5052 | spread: 4294957400 | best_bid: 10000 | best_ask: 104
+[2026-07-31 17:10:15.661]   market_61 | trades: 83 | volume: 1847103253 | mid: 25050 | spread: 4294917396 | best_bid: 50000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_3 | trades: 88 | volume: 3002932326 | mid: 2065 | spread: 4294963427 | best_bid: 4000 | best_ask: 131
+[2026-07-31 17:10:15.661]   market_69 | trades: 77 | volume: 3683102827 | mid: 2550 | spread: 4294962397 | best_bid: 5000 | best_ask: 101
+[2026-07-31 17:10:15.661]   market_37 | trades: 60 | volume: 1828099953 | mid: 1302 | spread: 4294964901 | best_bid: 2500 | best_ask: 105
+[2026-07-31 17:10:15.661]   market_51 | trades: 71 | volume: 734529633 | mid: 2550 | spread: 4294962396 | best_bid: 5000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_39 | trades: 107 | volume: 1508748468 | mid: 2550 | spread: 4294962397 | best_bid: 5000 | best_ask: 101
+[2026-07-31 17:10:15.661]   market_57 | trades: 83 | volume: 3250842130 | mid: 2556 | spread: 4294962408 | best_bid: 5000 | best_ask: 112
+[2026-07-31 17:10:15.661]   market_30 | trades: 75 | volume: 1405109947 | mid: 1053 | spread: 4294965403 | best_bid: 2000 | best_ask: 107
+[2026-07-31 17:10:15.661]   market_44 | trades: 82 | volume: 6135583246 | mid: 1303 | spread: 4294964903 | best_bid: 2500 | best_ask: 107
+[2026-07-31 17:10:15.661]   market_72 | trades: 76 | volume: 1206587779 | mid: 5053 | spread: 4294957403 | best_bid: 10000 | best_ask: 107
+[2026-07-31 17:10:15.661]   market_9 | trades: 78 | volume: 1592157349 | mid: 1156 | spread: 4294965608 | best_bid: 2000 | best_ask: 312
+[2026-07-31 17:10:15.661]   market_82 | trades: 69 | volume: 1387036169 | mid: 1304 | spread: 4294964904 | best_bid: 2500 | best_ask: 108
+[2026-07-31 17:10:15.661]   market_90 | trades: 108 | volume: 3404546190 | mid: 5050 | spread: 4294957396 | best_bid: 10000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_28 | trades: 50 | volume: 830984395 | mid: 10050 | spread: 4294947396 | best_bid: 20000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_25 | trades: 60 | volume: 1838926699 | mid: 5050 | spread: 4294957396 | best_bid: 10000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_71 | trades: 69 | volume: 758048942 | mid: 2550 | spread: 4294962396 | best_bid: 5000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_66 | trades: 77 | volume: 1955871930 | mid: 2050 | spread: 4294963396 | best_bid: 4000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_91 | trades: 103 | volume: 3036858403 | mid: 50051 | spread: 4294867398 | best_bid: 100000 | best_ask: 102
+[2026-07-31 17:10:15.661]   market_49 | trades: 65 | volume: 853281589 | mid: 1716 | spread: 4294964063 | best_bid: 3333 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_34 | trades: 66 | volume: 1005345871 | mid: 1302 | spread: 4294964900 | best_bid: 2500 | best_ask: 104
+[2026-07-31 17:10:15.661]   market_92 | trades: 84 | volume: 9660122262 | mid: 50050 | spread: 4294867396 | best_bid: 100000 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_89 | trades: 77 | volume: 7725690223 | mid: 16738 | spread: 4294934107 | best_bid: 33333 | best_ask: 144
+[2026-07-31 17:10:15.661]   market_18 | trades: 63 | volume: 2008205027 | mid: 1719 | spread: 4294964069 | best_bid: 3333 | best_ask: 106
+[2026-07-31 17:10:15.661]   market_84 | trades: 47 | volume: 9053610359 | mid: 1300 | spread: 4294964896 | best_bid: 2500 | best_ask: 100
+[2026-07-31 17:10:15.661]   market_98 | trades: 65 | volume: 800666569 | mid: 50051 | spread: 4294867398 | best_bid: 100000 | best_ask: 102
+[2026-07-31 17:10:15.661]   market_42 | trades: 65 | volume: 1242974305 | mid: 5051 | spread: 4294957398 | best_bid: 10000 | best_ask: 102
+[2026-07-31 17:10:15.661] ====================================
+[2026-07-31 17:10:15.661] CLOB Reconstructor finished.
