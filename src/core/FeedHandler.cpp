@@ -17,12 +17,14 @@ FeedHandler::FeedHandler(const FeedConfig& config)
     Logger::getInstance().log("CLOB Reconstructor starting...");
     Logger::getInstance().log("RPC URL: " + config_.rpc_url);
     
-    // Create parser
+    // Create parser config from feed config
     ParserConfig pconfig;
-    pconfig.rpc_url = config_.rpc_url;
-    pconfig.start_block = config_.start_block;
-    pconfig.end_block = config_.end_block;
-    pconfig.lookback_blocks = config_.lookback_blocks;
+    pconfig.rpc_url          = config_.rpc_url;
+    pconfig.exchange_version = config_.exchange_version;
+    pconfig.start_block      = config_.start_block;
+    pconfig.end_block        = config_.end_block;
+    pconfig.lookback_blocks  = config_.lookback_blocks;
+    pconfig.batch_size       = config_.batch_size;
     
     parser_ = std::make_unique<PolygonParser>(pconfig);
     obm_ = std::make_unique<OrderBookManager>();

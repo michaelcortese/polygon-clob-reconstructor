@@ -1,14 +1,17 @@
 #pragma once
 #include "Dispatcher.hpp"
+#include "parser/PolygonParser.hpp"
 #include <string>
 
 struct FeedConfig {
     std::string rpc_url;
+    ExchangeVersion exchange_version = ExchangeVersion::V2;
     uint64_t start_block = 0;
     uint64_t end_block = 0;
     uint64_t lookback_blocks = 100;
-    uint64_t progress_interval = 100;  // print stats every N blocks
-    std::string output_file;           // optional: path for CSV output
+    uint64_t batch_size = 100;          // blocks per RPC call
+    uint64_t progress_interval = 100;   // print stats every N blocks
+    std::string output_file;            // optional: path for CSV output
 };
 
 class FeedHandler {
