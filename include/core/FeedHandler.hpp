@@ -2,6 +2,8 @@
 #include "Dispatcher.hpp"
 #include "parser/PolygonParser.hpp"
 #include <string>
+#include <fstream>
+#include <memory>
 
 struct FeedConfig {
     std::string rpc_url;
@@ -11,19 +13,21 @@ struct FeedConfig {
     uint64_t lookback_blocks = 100;
     uint64_t batch_size = 100;          // blocks per RPC call
     uint64_t progress_interval = 100;   // print stats every N blocks
-    std::string output_file;            // optional: path for CSV output
+    std::string output_file;            // optional: path for event CSV output
 };
 
 class FeedHandler {
 public:
     explicit FeedHandler(const FeedConfig& config);
-    
+    ~FeedHandler();
+
     // Main loop: process blocks until end_block or indefinitely
     void run();
-    
+
 private:
     FeedConfig config_;
     std::unique_ptr<PolygonParser> parser_;
     std::unique_ptr<OrderBookManager> obm_;
     std::unique_ptr<Dispatcher> dispatcher_;
+    std::ofstream output_stream_;
 };
