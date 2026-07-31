@@ -29,6 +29,7 @@ public:
     
     // Getters
     const DispatchStats& stats() const { return stats_; }
+    DispatchStats& stats() { return stats_; }
     
 private:
     PolygonParser& parser_;
