@@ -7,15 +7,14 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 option(POLYGON_CLOB_USE_CURL "Enable libcurl support" ON)
 
-# ── FetchContent ──────────────────────────────────────────────────────────────
-include(FetchContent)
+# ── nlohmann_json (local single-header) ─────────────────────────────────────
+# Use pre-downloaded single header to avoid network dependency during build
+add_library(nlohmann_json INTERFACE)
+target_include_directories(nlohmann_json INTERFACE third_party)
+add_library(nlohmann_json::nlohmann_json ALIAS nlohmann_json)
 
-FetchContent_Declare(
-  nlohmann_json
-  GIT_REPOSITORY https://github.com/nlohmann/json.git
-  GIT_TAG        v3.11.3
-)
-FetchContent_MakeAvailable(nlohmann_json)
+# ── Catch2 (FetchContent) ────────────────────────────────────────────────────
+include(FetchContent)
 
 FetchContent_Declare(
   Catch2
@@ -37,10 +36,10 @@ endif()
 find_package(Threads REQUIRED)
 
 # ── Library (shared sources, excludes main.cpp) ───────────────────────────────
-file(GLOB LIB_SOURCES src/logger/*.cpp src/book/*.cpp src/parser/*.cpp src/core/*.cpp)
+file(GLOB LIB_SOURCES src/logger/*.cpp src/book/*.cpp src/parser/*.cpp src/core/*.cpp src/analytics/*.cpp)
 
 add_library(polygon_clob_lib STATIC ${LIB_SOURCES})
-target_include_directories(polygon_clob_lib PUBLIC include)
+target_include_directories(polygon_clob_lib PUBLIC include third_party)
 target_link_libraries(polygon_clob_lib PUBLIC
   nlohmann_json::nlohmann_json
   Threads::Threads
