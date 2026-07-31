@@ -280,12 +280,9 @@ Execution PolygonParser::decode_order_filled_v1(const json& log) const {
     }
 
     // ── Quantity = token-side amount ────────────────────────────────
-    exec.quantity = exec.is_buy
-        ? static_cast<uint32_t>(maker_amount)
-        : static_cast<uint32_t>(taker_amount);
-
-    if (maker_amount > UINT32_MAX || taker_amount > UINT32_MAX) {
-        exec.quantity = UINT32_MAX;
+    exec.quantity = exec.is_buy ? maker_amount : taker_amount;
+    if (exec.quantity > UINT32_MAX) {
+        Logger::getInstance().log("DEBUG: large qty block=" + std::to_string(exec.block_number) + " qty=" + std::to_string(exec.quantity));
     }
 
     exec.timestamp = 0;
@@ -343,12 +340,9 @@ Execution PolygonParser::decode_order_filled_v2(const json& log) const {
     }
 
     // ── Quantity = token-side amount ────────────────────────────────
-    exec.quantity = exec.is_buy
-        ? static_cast<uint32_t>(maker_amount)
-        : static_cast<uint32_t>(taker_amount);
-
-    if (maker_amount > UINT32_MAX || taker_amount > UINT32_MAX) {
-        exec.quantity = UINT32_MAX;
+    exec.quantity = exec.is_buy ? maker_amount : taker_amount;
+    if (exec.quantity > UINT32_MAX) {
+        Logger::getInstance().log("DEBUG: large qty block=" + std::to_string(exec.block_number) + " qty=" + std::to_string(exec.quantity));
     }
 
     // ── Token identification ────────────────────────────────────────
